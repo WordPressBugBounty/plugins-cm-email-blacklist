@@ -3,8 +3,8 @@ Contributors: CreativeMindsSolutions
 Donate link: http://www.cminds.com/
 Tags: anti-spam, blacklist, whitelist, spam, email blacklist
 Requires at least: 5.4.0
-Tested up to: 6.6
-Stable tag: 1.5.3
+Tested up to: 6.7
+Stable tag: 1.5.4
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -103,9 +103,16 @@ PHP Version:  Plugin uses a structure which was introduced only with PHP 5.3.0. 
 
 == Changelog ==
 
+= 1.5.4 =
+Release Date: 19 Nov 2024
+* Fixed security (medium) issue
+
+
 = 1.5.3 =
 Release Date: 9 Oct 2024
+
 * Fixed security issues
+
 
 = 1.5.2 =
 Release Date: 30 Sep 2024

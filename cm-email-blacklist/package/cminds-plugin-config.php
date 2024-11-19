@@ -6,7 +6,7 @@ ob_end_clean();
 $cminds_plugin_config = array(
 	'plugin-is-pro'				 => FALSE,
 	'plugin-is-addon'			 => FALSE,
-	'plugin-version'			 => '1.5.3',
+	'plugin-version'			 => '1.5.4',
 	'plugin-abbrev'				 => 'cmeb',
 	'plugin-file'				 => CMEB_PLUGIN_FILE,
 	'plugin-dir-path'			 => plugin_dir_path( CMEB_PLUGIN_FILE ),
