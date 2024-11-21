@@ -10,6 +10,7 @@ class CMEB {
 
     const MENU = 'cmeb_menu';
     const MENU_ABOUT = 'cmeb_menu_about';
+    const MENU_IMPORT = 'cmeb_import';
     const MENU_SETTINGS = 'cmeb_menu_settings';
     const MENU_LICENSE = 'cmeb_menu_license';
     const MENU_UPGRADE = 'cmeb_menu_upgrade';
@@ -47,7 +48,7 @@ class CMEB {
         add_menu_page('Settings', 'CM E-Mail Registration Blacklist', 'manage_options', CMEB_MENU_ITEM, array(__CLASS__, 'displayAdminOptions'), '');
         do_action('cmeb_admin_pages');
         //add_submenu_page(CMEB_MENU_ITEM, 'CM Email Blacklist About', 'Settings', 'manage_options', self::MENU_SETTINGS, array(__CLASS__, 'displayAdminOptions'));
-		add_submenu_page(CMEB_MENU_ITEM, 'CM Email Blacklist Import', 'Import', 'manage_options', self::MENU_ABOUT, array(__CLASS__, 'importView'));
+		add_submenu_page(CMEB_MENU_ITEM, 'CM Email Blacklist Import', 'Import', 'manage_options', self::MENU_IMPORT, array(__CLASS__, 'importView'));
     }
 	
 	public static function importView() {

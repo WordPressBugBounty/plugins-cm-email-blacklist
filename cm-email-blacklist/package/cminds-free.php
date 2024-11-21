@@ -1249,7 +1249,7 @@ if (!class_exists(__NAMESPACE__ . '\CmindsFreePackage')) {
 
                     div.cminds_guide_wrapper {
                         display: inline-block;
-                        padding: 0em 0em 1em 1em;
+                        padding: 0em 0em 1em 0em;
                         background: #FFF;
                         margin: 0em 0em 0 0;
                         vertical-align: top;
@@ -1261,8 +1261,8 @@ if (!class_exists(__NAMESPACE__ . '\CmindsFreePackage')) {
 
                     .cminds_guide{
                         display: inline-block;
-                        margin: 1em;
-                        padding: 1em;
+                        margin: 0em;
+                        padding: 0em;
                     }
 
                     .cminds_guide_text{
@@ -1531,7 +1531,7 @@ if (!class_exists(__NAMESPACE__ . '\CmindsFreePackage')) {
 
                     div.cminds_upgrade_wrapper {
                         display: block;
-                        padding: 0em 0em 1em 1em;
+                        padding: 0em 0em 1em 0em;
                         background: #FFF;
                         margin: 0em 1em 0 0;
                         vertical-align: top;
@@ -1543,8 +1543,8 @@ if (!class_exists(__NAMESPACE__ . '\CmindsFreePackage')) {
 
                     .cminds_upgrade{
                         display: inline-block;
-                        margin: 1em;
-                        padding: 1em;
+                        margin: 0em;
+                        padding: 0em;
                         width: 100%;
                     }
 
