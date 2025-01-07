@@ -4,7 +4,7 @@ Plugin Name: CM E-Mail Registration Blacklist
 Plugin URI: https://www.cminds.com/wordpress-plugins-library/email-registration-blacklist-plugin-for-wordpress/
 Description: Block users from certain domains from registering in your site
 Author: CreativeMindsSolutions
-Version: 1.5.5
+Version: 1.5.6
 */
 
 if ( version_compare( '5.3', phpversion(), '>' ) ) {
@@ -18,7 +18,7 @@ if ( version_compare( '5.3', phpversion(), '>' ) ) {
  * @since 1.0
  */
 if ( !defined( 'CMEB_VERSION' ) ) {
-	define( 'CMEB_VERSION', '1.5.5' );
+	define( 'CMEB_VERSION', '1.5.6' );
 }
 
 /**

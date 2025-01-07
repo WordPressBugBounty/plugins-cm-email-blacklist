@@ -4,7 +4,7 @@ Donate link: http://www.cminds.com/
 Tags: anti-spam, blacklist, whitelist, spam, email blacklist
 Requires at least: 5.4.0
 Tested up to: 6.7
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -102,6 +102,10 @@ PHP Version:  Plugin uses a structure which was introduced only with PHP 5.3.0. 
 6. Tester
 
 == Changelog ==
+
+= 1.5.6 =
+Release Date: 07 Jan 2025
+* Fixed vulnerability issue
 
 = 1.5.5 =
 Release Date: 21 Nov 2024
