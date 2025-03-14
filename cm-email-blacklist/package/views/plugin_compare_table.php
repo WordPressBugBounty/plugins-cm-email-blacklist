@@ -47,9 +47,9 @@
     <tr>
         <td style="text-align:center; border-right: 1px solid #c0c0c0; width:28%"></td>
         <td style="text-align:center; font-size:20px; width:18%">FREE</td>
-        <td style="text-align:center; font-size:20px; width:18%">$39</td>
-        <td style="text-align:center; font-size:20px; width:18%">$69</td>
-        <td style="text-align:center; font-size:20px; width:18%">$119</td>
+        <td style="text-align:center; font-size:20px; width:18%">$49</td>
+        <td style="text-align:center; font-size:20px; width:18%">$99</td>
+        <td style="text-align:center; font-size:20px; width:18%">$149</td>
     </tr>
     <tr>
         <td style="border-right: 1px solid #c0c0c0; width:28%">Price includes 1 year support/updates.<br>Manual renewal with 40% discount, not a subscription 
@@ -428,9 +428,9 @@
     <tr>
         <td style="text-align:center; border-right: 1px solid #c0c0c0; width:28%"></td>
         <td style="text-align:center; font-size:20px; width:18%">FREE</td>
-        <td style="text-align:center; font-size:20px; width:18%">$39</td>
-        <td style="text-align:center; font-size:20px; width:18%">$69</td>
-        <td style="text-align:center; font-size:20px; width:18%">$119</td>
+        <td style="text-align:center; font-size:20px; width:18%">$49</td>
+        <td style="text-align:center; font-size:20px; width:18%">$99</td>
+        <td style="text-align:center; font-size:20px; width:18%">$149</td>
     </tr>
     <tr>
         <td style="border-right: 1px solid #c0c0c0; width:28%">Price includes 1 year support/updates.<br>Manual renewal with 40% discount, not a subscription 
