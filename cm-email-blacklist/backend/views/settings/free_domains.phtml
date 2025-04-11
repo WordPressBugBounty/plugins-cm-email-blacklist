@@ -29,11 +29,11 @@ If you wish to whitelist domains listed in the free domains list, you can either
 <ul id="free-domains-list">
     <?php
 	foreach ($domains as $domain) {
-		//if($domain->domain != '') {
+		if($domain->domain != '') {
 			?>
 			<li><?php echo $domain->domain; ?></li>
 			<?php
-		//}
+		}
 	}
 	?>
 </ul>

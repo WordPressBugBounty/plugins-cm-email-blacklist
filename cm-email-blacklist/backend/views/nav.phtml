@@ -2,12 +2,18 @@
 <style type="text/css">.subsubsub li+li:before{content:'| ';}</style>
 <span id="cmgdm_admin_nav">
 <ul class="subsubsub">
-    <?php foreach ($submenus as $menu): ?>
-    <li><a href="<?php echo $menu['link']; ?>" <?php echo ($menu['current'])?'class="current"':''; ?>><?php echo $menu['title']; ?></a></li>
-    <?php endforeach; ?>
+    <?php
+	foreach ($submenus as $menu) {
+		if($menu['title'] != '<span class="cmseparator"></span>') {
+			?>
+		    <li><a href="<?php echo $menu['link']; ?>" <?php echo ($menu['current'])?'class="current"':''; ?>><?php echo $menu['title']; ?></a></li>
+			<?php
+		}
+	}
+	?>
 </ul>
 <div class="show_hide_pro_options" style="position:absolute; right:20px; margin-top:8px;">
-	<input onclick="jQuery('.onlyinpro').toggleClass('hide'); return false;" type="button" name="" value="Show/hide Pro options" class="button" />
+	<input onclick="jQuery('.onlyinpro').toggleClass('hide'); jQuery('.onlyinpro_empty').toggleClass('show'); return false;" type="button" name="" value="Show/hide Pro options" class="button cmeb-cleanup-button" style="background:lightgreen; color:#2271b1 !important; border-color:#2271b1 !important;" />
 </div>
 <br class="clear" />
 </span>

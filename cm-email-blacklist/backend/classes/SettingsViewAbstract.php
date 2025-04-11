@@ -116,7 +116,7 @@ abstract class CMEB_SettingsViewAbstract {
     }
 	
     protected function renderCustom() {
-        return 'Available in Pro version and above.<br><a href="'.get_site_url().'/wp-admin/admin.php?page=cmeb_pro">UPGRADE NOW&nbsp;➤</a>';
+        return 'Available in Pro version and above.';
     }
 
     protected function renderRadio($name, $options, $currentValue = null) {
