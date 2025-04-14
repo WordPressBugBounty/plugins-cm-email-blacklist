@@ -17,7 +17,7 @@ class CMEB_Validate {
         add_filter( 'cmeb_admin_settings', array( __CLASS__, 'handleAdminSettings' ) );
         add_filter( 'registration_errors', array( __CLASS__, 'addValidationErrors' ), 100, 3 );
         add_filter( 'submit_wpum_form_validate_fields', array( __CLASS__,'wpumValidate' ), 100, 4 );
-        add_action( 'register_form', array( __CLASS__, 'addRegisterFormField' ) );
+        //add_action( 'register_form', array( __CLASS__, 'addRegisterFormField' ) );
         add_action( 'wpmu_validate_user_signup', array( __CLASS__, 'muVerifyDomain' ), 100 );
 		add_action( 'cm_register_post', array( __CLASS__, 'cm_register_post' ), 1000, 3 );
     }
@@ -334,27 +334,25 @@ class CMEB_Validate {
         return self::$_freeDomainsListed;
     }
 
-    public static function addRegisterFormField() {
+    /*
+	public static function addRegisterFormField() {
         global $cmindsPluginPackage;
         $packageObj = isset($cmindsPluginPackage[ 'cmeb' ]) ? $cmindsPluginPackage[ 'cmeb' ] : null;
-
         if(!empty($packageObj) && !$packageObj->isPoweredByEnabled()){
             return;
         }
-
         ob_start();
         ?>
         <style>
-            #user_email {margin-bottom:0px;}
-            .cmeb_poweredby {clear:both;float:none;font-size:8px;line-height:1.5;margin-bottom:16px;display: inline-block;color:#bbb;text-decoration:none;font-weight:bold}
-            .cmeb_poweredby:before {content:'Powered by ';}
+		#user_email {margin-bottom:0px;}
+		.cmeb_poweredby {clear:both;float:none;font-size:8px;line-height:1.5;margin-bottom:16px;display: inline-block;color:#bbb;text-decoration:none;font-weight:bold}
+		.cmeb_poweredby:before {content:'Powered by ';}
         </style>
-        <!--// By leaving following snippet in the code, you're expressing your gratitude to creators of this plugin. Thank You! //-->
         <span class="cmeb_poweredby"><a href="http://www.cminds.com/" target="_new">CreativeMinds WordPress Plugins</a> <a href="https://www.cminds.com/wordpress-plugins-library/email-registration-blacklist-plugin-for-wordpress/" target="_new">E-Mail Blacklist</a></span>
         <?php
-
         ob_end_flush();
     }
+	*/
 
     /**
      * Make sure the chosen email is not in the blacklist.

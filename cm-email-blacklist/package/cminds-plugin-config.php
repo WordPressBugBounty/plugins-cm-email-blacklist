@@ -7,7 +7,7 @@ $cminds_plugin_config = array(
 	'plugin-is-pro'				 => FALSE,
 	'plugin-is-addon'			 => FALSE,
 	'plugin-has-addons'			 => TRUE,
-	'plugin-version'			 => '1.5.8',
+	'plugin-version'			 => '1.5.9',
 	'plugin-addons'        => array(
 		array(
 			'title' => 'Registration and Invitation Codes',

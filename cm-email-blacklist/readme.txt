@@ -5,13 +5,12 @@ Donate link: http://www.cminds.com/
 Tags: anti-spam, blacklist, whitelist, spam, email blacklist
 Requires at least: 5.4.0
 Tested up to: 6.8
-Stable tag: 1.5.8
+Stable tag: 1.5.9
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Block unwanted email registrations on your site with this email blacklist plugin. Protect your site by preventing spam sign-ups.
-
 
 == Description ==
 
@@ -109,6 +108,9 @@ PHP Version: Plugin uses a structure which was introduced only with PHP 5.3.0. S
 8. Blocked Registration Example
 
 == Changelog ==
+
+= 1.5.9 =
+* Fixed critical fatal error
 
 = 1.5.8 =
 Release Date: 10 Apr 2025
