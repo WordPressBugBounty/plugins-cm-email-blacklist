@@ -590,7 +590,7 @@
                         </div>
 
                         <div class="plugins-price item">
-                            <span>$49</span>
+                            <span>$39</span>
                         </div>
 
                         <div class="plugins-body item">
@@ -633,7 +633,7 @@
                         </div>
 
                         <div class="plugins-price item">
-                            <span>$49</span>
+                            <span>$39</span>
                         </div>
 
                         <div class="plugins-body item">
@@ -654,7 +654,7 @@
                         </div>
 
                         <div class="plugins-price item">
-                            <span>$59</span>
+                            <span>$49</span>
                         </div>
 
                         <div class="plugins-body item">
